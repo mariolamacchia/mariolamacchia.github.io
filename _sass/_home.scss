@@ -20,7 +20,7 @@
     color: $white;
     position: absolute;
     text-align: center;
-    top: 50%;
+    top: 20%;
     transform: translateY(-50%);
     width: 100%;
 
@@ -33,5 +33,28 @@
       color: $brand-color;
       font-size: 28px;
     }
+  }
+
+  .home__cards {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+
+    li {
+      margin: 10px;
+    }
+  }
+
+  .cards a li {
+    background-color: blue;
+  }
+  .cards a+a li {
+    background-color: red;
+  }
+  .cards a+a+a li {
+    background-color: yellow;
+  }
+  .cards a+a+a+a li {
+    background-color: green;
   }
 }
