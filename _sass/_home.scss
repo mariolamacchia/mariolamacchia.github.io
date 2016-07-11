@@ -20,7 +20,7 @@
     color: $white;
     position: absolute;
     text-align: center;
-    top: 20%;
+    top: 30%;
     transform: translateY(-50%);
     width: 100%;
 
@@ -30,8 +30,35 @@
     }
 
     h2 {
-      color: $brand-color;
       font-size: 28px;
+    }
+  }
+
+  .home__cards {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+
+    a {
+      color: $white;
+      font-size: 18px;
+      line-height: 40px;
+      border-radius: 10px;
+      background: $brand-primary;
+      width: 40px;
+      height: 40px;
+      margin: 10px;
+      transition: opacity .2s linear;
+
+      &:last-of-type {
+        background: $brand-secondary;
+      }
+
+      &:hover {
+        text-decoration: none;
+        opacity: .8;
+      }
     }
   }
 }

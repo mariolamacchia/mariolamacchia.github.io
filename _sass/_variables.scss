@@ -1,7 +1,8 @@
 // Our variables
 $base-font-family: "Open Sans", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
-$base-font-weight: 600;
+$base-font-weight: 300;
+$bold-font-weight: 600;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
@@ -9,12 +10,8 @@ $spacing-unit:     30px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
-$brand-color:      #81bdc1;
-
-$color-github: #000;
-$color-linkedin: #0077b5;
-$color-email: #e26161;
-$color-blog: #72b960;
+$brand-primary:    #4eadff;
+$brand-secondary:  #e26161;
 
 $white: #ffffff;
 $grey-color:       #828282;
