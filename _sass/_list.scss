@@ -1,0 +1,28 @@
+.list {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  li {
+    list-style: none;
+    text-align: center;
+    padding: 20px 200px;
+    font-size: 24px;
+    position: relative;
+
+    a {
+      color: $text-color
+    }
+
+    &:after {
+      content: ' ';
+      border-bottom: 1px solid #e8e8e8;
+      width: 80%;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}

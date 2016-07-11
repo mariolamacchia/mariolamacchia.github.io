@@ -8,10 +8,12 @@ subtitle: Frontend Developer
 {% if paginator.previous_page_path %}
   <a href="{{ paginator.previous_page_path }}">Newer posts</a>
 {% endif %}
-<ul class="post-list">
+<ul class="list">
 
   {% for post in paginator.posts %}
-    <li>{{post.title}}</li>
+    <li>
+      <a href="{{post.url}}">{{post.title}}</a>
+    </li>
   {% endfor %}
 
 </ul>
