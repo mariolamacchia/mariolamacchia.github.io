@@ -1,0 +1,23 @@
+.hero {
+  height: 350px;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding-top: 100px;
+
+  .hero__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .4);
+    z-index: -1;
+  }
+
+  img {
+    position: absolute;
+    top: 0;
+    z-index: -2;
+  }
+}

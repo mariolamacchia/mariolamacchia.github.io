@@ -9,6 +9,13 @@
 
     <div class="page-content">
       <div class="wrapper">
+        <div class="hero">
+          <img src="{{ page.image }}" alt="{{ page.title }}">
+          <div class="hero__overlay"></div>
+          <p class="site-title">{{ page.title }}</p>
+          <p class="site-subtitle">{{ page.subtitle }}</p>
+        </div>
+
         {{ content }}
       </div>
     </div>

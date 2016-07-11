@@ -123,6 +123,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (= 86)
+  jekyll-paginate
   json
 
 BUNDLED WITH

@@ -1,6 +1,20 @@
 ---
 layout: default
 image: "/static/images/bg_image.jpg"
+title: Mario Lamacchia
+subtitle: Frontend Developer
 ---
 
+{% if paginator.previous_page_path %}
+  <a href="{{ paginator.previous_page_path }}">Newer posts</a>
+{% endif %}
+<ul class="post-list">
 
+  {% for post in paginator.posts %}
+    <li>{{post.title}}</li>
+  {% endfor %}
+
+</ul>
+{% if paginator.next_page_path %}
+  <a href="{{ paginator.next_page_path }}">Older posts</a>
+{% endif %}

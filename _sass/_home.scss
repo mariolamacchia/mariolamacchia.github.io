@@ -17,24 +17,12 @@
   }
 
   .home__heading {
-    color: $white;
     position: absolute;
-    text-align: center;
     top: 30%;
     transform: translateY(-50%);
-    width: 100%;
-
-    h1 {
-      line-height: 38px;
-      font-size: 60px;
-    }
-
-    h2 {
-      font-size: 28px;
-    }
   }
 
-  .home__cards {
+  .home__links {
     position: absolute;
     top: 50%;
     width: 100%;
