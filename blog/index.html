@@ -13,7 +13,7 @@ subtitle: Frontend Developer
   {% for post in paginator.posts %}
     <li>
       <a href="{{post.url}}">
-        <b>{{ post.date | date_to_string }}</b>
+        <span class="post-date">{{ post.date | date_to_string }}</span>
         <p>{{ post.title }}</p>
         <small>{{ post.subtitle }}</small>
       </a>

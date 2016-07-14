@@ -28,7 +28,7 @@
           opacity: .8;
         }
 
-        b {
+        .post-date {
           color: rgba($brand-primary, .4);
         }
       }
@@ -39,14 +39,7 @@
       font-weight: $bold-font-weight;
     }
 
-    b {
-      text-transform: uppercase;
-      font-size: 14px;
-      color: $grey-color;
-      display: block;
-    }
-
-    b, p {
+    .post-date, p {
       transition: color .2s ease-out;
     }
 
