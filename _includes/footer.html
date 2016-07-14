@@ -1,9 +1,9 @@
 <footer class="wrapper">
 
   <div class="footer-container">
-    <a href="{{ site.data.social_links.twitter }}" class="fa fa-twitter"></a>
-    <a href="{{ site.data.social_links.google }}" class="fa fa-google-plus"></a>
-    <a href="{{ site.data.social_links.linkedin }}" class="fa fa-linkedin"></a>
+    <a href="{{ site.data.social_links.twitter }}" class="hidden-mobile fa fa-twitter"></a>
+    <a href="{{ site.data.social_links.google }}" class="hidden-mobile fa fa-google-plus"></a>
+    <a href="{{ site.data.social_links.linkedin }}" class="hidden-mobile fa fa-linkedin"></a>
     
     <a href="{% if page.url == '/blog/' %}/{% else %}/blog/{% endif %}">
       <img src="/static/images/io.jpg">

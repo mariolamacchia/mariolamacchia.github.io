@@ -20,6 +20,10 @@ footer {
 
   p {
     margin-bottom: 0;
+
+    @include on-mobile {
+      text-align: center;
+    }
   }
 
   .page-title {
