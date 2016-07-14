@@ -99,11 +99,10 @@ a {
     transition: opacity $animate-fast;
 
     &:visited {
-        color: darken($brand-secondary, 15%);
+        color: darken($brand-secondary, 30%);
     }
 
     &:hover {
-        color: $text-color;
         text-decoration: none;
         opacity: .8;
     }
