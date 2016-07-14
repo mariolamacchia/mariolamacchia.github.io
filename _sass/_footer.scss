@@ -12,7 +12,7 @@ footer {
   img {
     float: left;
     border-radius: $footer-height;
-    height: $footer-height;
+    height: $footer-height - 8px;
     margin-right: $footer-height;
     padding: 3px;
     border: 1px solid $grey-color-light;
