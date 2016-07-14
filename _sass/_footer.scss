@@ -1,11 +1,13 @@
 footer {
   $footer-height: 50px;
 
-  margin-top: $footer-height;
-  margin-bottom: $footer-height;
-  padding: 30px 20px;
-  border-top: 1px solid $grey-color-light;
-  border-bottom: 1px solid $grey-color-light;
+  .footer-container {
+    padding: 30px 20px;
+    margin-top: $footer-height;
+    margin-bottom: $footer-height;
+    border-top: 1px solid $grey-color-light;
+    border-bottom: 1px solid $grey-color-light;
+  }
 
   img {
     float: left;
