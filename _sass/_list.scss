@@ -43,11 +43,12 @@
       transition: color .2s ease-out;
     }
 
-    small {
+    .small {
       color: $grey-color;
       font-size: 16px;
-      line-height: 1.8;
+      line-height: 2;
       transition: opacity .2s ease-out;
+      font-weight: $base-font-weight;
     }
 
     &:not(:last-child):after {
@@ -59,5 +60,16 @@
       left: 50%;
       transform: translateX(-50%);
     }
+
+    @include on-mobile {
+      padding-left: 0;
+      padding-right: 0;
+
+      .small {
+        text-align: justify;
+        padding: 0 20px;
+      }
+    }
+
   }
 }
