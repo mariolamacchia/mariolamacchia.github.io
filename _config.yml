@@ -8,6 +8,8 @@ url: "https://mariolamacchia.github.io"
 paginate: 20
 paginate_path: "/blog/page:num/"
 permalink: /blog/:title
+image: /static/images/img_share.jpg
+author: Mario Lamacchia
 
 # Build settings
 markdown: kramdown
