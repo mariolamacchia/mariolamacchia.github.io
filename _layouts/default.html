@@ -5,10 +5,15 @@
 
   <body>
 
-    {% include header.html %}
-
     <div class="page-content">
       <div class="wrapper">
+        <div class="hero">
+          <div style="background-image: url({{ page.image }})" class="image"></div>
+          <div class="hero__overlay"></div>
+          <p class="site-title">{{ page.title }}</p>
+          <p class="site-subtitle">{{ page.subtitle }}</p>
+        </div>
+
         {{ content }}
       </div>
     </div>
@@ -16,5 +21,7 @@
     {% include footer.html %}
 
   </body>
+
+  {% include scripts.html %}
 
 </html>

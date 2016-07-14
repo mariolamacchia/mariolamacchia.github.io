@@ -1,0 +1,13 @@
+.color-primary {
+  color: $brand-primary;
+}
+
+.color-secondary {
+  color: $brand-secondary;
+}
+
+.hidden-mobile {
+  @include on-mobile {
+    display: none;
+  }
+}

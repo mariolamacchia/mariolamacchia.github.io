@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Lorem Ipsum"
-subtitle: "Lorem ipsum dolor sit amet, consectetur"
-date:   2016-07-10 12:37:31 +0200
+title:  "Lorem Ipsum Dolor Sit"
+subtitle: "ipsum dolor sit amet, consectetur"
+date:   2016-07-11 12:37:31 +0200
 image: http://lorempixel.com/740/350/technics
 ---
 An h1 header

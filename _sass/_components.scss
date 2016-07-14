@@ -1,0 +1,69 @@
+.site-subtitle {
+  color: $white;
+  text-align: center;
+  width: 100%;
+  font-size: 28px;
+
+  @include on-mobile {
+    font-size: 20px;
+  }
+}
+
+.site-title {
+  @extend .site-subtitle;
+  line-height: 38px;
+  font-size: 60px;
+  font-weight: $bold-font-weight;
+
+  @include on-mobile {
+    font-size: 48px;
+    line-height: 50px;
+  }
+}
+
+.post-date {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: $grey-color;
+  display: block;
+  font-weight: $bold-font-weight;
+}
+
+@mixin button($color) {
+  background-color: $color;
+  transition: background-color $animate-fast;
+  border-radius: 4px;
+  padding: 5px 20px;
+  color: $white;
+  text-transform: uppercase;
+  font-weight: $bold-font-weight;
+  text-align: center;
+  font-size: 20px;
+
+  @include on-mobile {
+    font-size: 16px;
+  }
+
+  &:hover {
+    opacity: 1;
+    background-color: darken($color, 15%);
+  }
+
+  &:active, &:focus {
+    opacity: 1;
+    background-color: darken($color, 30%);
+  }
+
+  &:visited {
+    opacity: 1;
+    color: $white;
+  }
+}
+
+.button-primary {
+  @include button($brand-primary);
+}
+
+.button-secondary {
+  @include button($brand-secondary);
+}

@@ -1,8 +1,7 @@
 ---
 layout: post
+subtitle: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum amet in maxime reiciendis eaque reprehenderit officia commodi quibusdam magnam unde"
 title:  "Lorem Ipsum"
-subtitle: "Lorem ipsum dolor sit amet, consectetur"
-date:   2016-07-10 12:37:31 +0200
 image: http://lorempixel.com/740/350/technics
 ---
 An h1 header

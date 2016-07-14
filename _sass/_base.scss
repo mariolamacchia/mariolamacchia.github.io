@@ -9,7 +9,6 @@ dl, dd, ol, ul, figure {
 }
 
 
-
 /**
  * Basic styling
  */
@@ -85,22 +84,31 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: $base-font-weight;
 }
 
+h1 {
+    font-weight: $bold-font-weight;
+}
+
 
 
 /**
  * Links
  */
 a {
-    color: $brand-color;
+    color: $brand-secondary;
     text-decoration: none;
+    transition: opacity $animate-fast;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: darken($brand-secondary, 30%);
     }
 
     &:hover {
-        color: $text-color;
-        text-decoration: underline;
+        text-decoration: none;
+        opacity: .8;
+    }
+
+    &:active, &:focus {
+        opacity: .4;
     }
 }
 

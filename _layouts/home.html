@@ -5,10 +5,17 @@
 
   <body>
 
+  <div class="home" style="background-image: url({{page.image}}">
+
+      <div class="home__heading">
+        <h1 class="site-title">{{ page.title }}</h1>
+        <h2 class="site-subtitle">{{ page.subtitle }}</h2>
+      </div>
+
     {{ content }}
 
-    {% include after-body.html %}
-    
   </body>
+
+  {% include scripts.html %}
 
 </html>
