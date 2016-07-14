@@ -5,7 +5,7 @@
     <a href="{{ site.data.social_links.google }}" class="fa fa-google-plus"></a>
     <a href="{{ site.data.social_links.linkedin }}" class="fa fa-linkedin"></a>
     
-    <a href="/blog">
+    <a href="{% if page.url == '/blog/' %}/{% else %}/blog/{% endif %}">
       <img src="/static/images/io.jpg">
 
       <p class="page-title">{{ site.title }}</p>
