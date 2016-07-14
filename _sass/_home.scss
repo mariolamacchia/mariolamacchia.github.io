@@ -5,6 +5,12 @@
   background-size: cover;
   background-position: center;
 
+  .break-mobile {
+    @include on-mobile {
+      display: block;
+    }
+  }
+
   &:before {
     content: ' ';
     position: absolute;

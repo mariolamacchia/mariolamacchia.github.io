@@ -42,7 +42,13 @@ $animate-fast:     .2s ease-out;
 //     }
 // }
 @mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+@mixin on-mobile {
+  @include media-query($on-palm) {
+    @content;
+  }
 }
