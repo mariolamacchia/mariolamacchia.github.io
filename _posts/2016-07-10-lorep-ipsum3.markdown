@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Lorem Ipsum Dolor Sit"
+subtitle: "ipsum dolor sit amet, consectetur"
 date:   2016-07-11 12:37:31 +0200
 ---
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum amet in maxime reiciendis eaque reprehenderit officia commodi quibusdam magnam unde, perferendis cumque beatae aliquam excepturi enim, nihil, hic accusantium. Ab.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum amet in maxime reiciendis eaque reprehenderit officia commodi quibusdam magnam unde, perferendis cumque beatae aliquam excepturi enim, nihil, hic accusantium. Ab.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum amet in maxime reiciendis eaque reprehenderit officia commodi quibusdam magnam unde, perferendis cumque beatae aliquam excepturi enim, nihil, hic accusantium. Ab.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum amet in maxime reiciendis eaque reprehenderit officia commodi quibusdam magnam unde, perferendis cumque beatae aliquam excepturi enim, nihil, hic accusantium. Ab.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum amet in maxime reiciendis eaque reprehenderit officia commodi quibusdam magnam unde, perferendis cumque beatae aliquam excepturi enim, nihil, hic accusantium. Ab.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum amet in maxime reiciendis eaque reprehenderit officia commodi quibusdam magnam unde, perferendis cumque beatae aliquam excepturi enim, nihil, hic accusantium. Ab.
