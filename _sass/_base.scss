@@ -94,16 +94,22 @@ h1 {
  * Links
  */
 a {
-    color: $brand-primary;
+    color: $brand-secondary;
     text-decoration: none;
+    transition: opacity $animate-fast;
 
     &:visited {
-        color: darken($brand-primary, 15%);
+        color: darken($brand-secondary, 15%);
     }
 
     &:hover {
         color: $text-color;
-        text-decoration: underline;
+        text-decoration: none;
+        opacity: .8;
+    }
+
+    &:active, &:focus {
+        opacity: .4;
     }
 }
 

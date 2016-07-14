@@ -18,8 +18,8 @@
       color: $text-color;
       display: block;
 
-      &:hover {
-        text-decoration: none;
+      &:hover, &:active, &:focus {
+        opacity: 1;
 
         p {
           color: $brand-primary;
